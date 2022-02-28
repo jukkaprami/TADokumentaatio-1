@@ -1,0 +1,27 @@
+Frame 176: 126 bytes on wire (1008 bits), 126 bytes captured (1008 bits) on interface \Device\NPF_{BF491846-201B-4E29-AEFD-6D46F72FCF8E}, id 0
+    Interface id: 0 (\Device\NPF_{BF491846-201B-4E29-AEFD-6D46F72FCF8E})
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Feb 14, 2022 13:18:27.761075000 FLE Standard Time
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1644837507.761075000 seconds
+    [Time delta from previous captured frame: 2.405958000 seconds]
+    [Time delta from previous displayed frame: 2.405958000 seconds]
+    [Time since reference or first frame: 6.753525000 seconds]
+    Frame Number: 176
+    Frame Length: 126 bytes (1008 bits)
+    Capture Length: 126 bytes (1008 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp]
+    [Coloring Rule Name: Bad TCP]
+    [Coloring Rule String: tcp.analysis.flags && !tcp.analysis.window_update && !tcp.analysis.keep_alive && !tcp.analysis.keep_alive_ack]
+Ethernet II, Src: VMware_61:cf:ee (00:0c:29:61:cf:ee), Dst: VMware_b1:55:90 (00:0c:29:b1:55:90)
+    Destination: VMware_b1:55:90 (00:0c:29:b1:55:90)
+        Address: VMware_b1:55:90 (00:0c:29:b1:55:90)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: VMware_61:cf:ee (00:0c:29:61:cf:ee)
+        Address: VMware_61:cf:ee (00:0c:29:61:cf:ee)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
